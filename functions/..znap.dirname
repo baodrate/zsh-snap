@@ -75,6 +75,7 @@
 }
 
 ..znap.dirname() {
+  typeset -ga reply=()
   ..znap.dirname.$1 "$2"
 }
 
